@@ -1,0 +1,8 @@
+/* media screen para celulares */
+@media screen and (max-width: 767px){}
+
+/* media screen para dispositivos móviles más antiguos y pantallas muy pequeñas */
+@media screen and (max-width: 360px){}
+
+/* media screen para  teléfonos móviles actuales (360px - 768px) */
+@media screen and (max-width: 768px) and (min-width: 361px){}
