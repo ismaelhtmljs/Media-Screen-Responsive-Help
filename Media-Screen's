@@ -1,8 +1,11 @@
-/* media screen para celulares */
-@media screen and (max-width: 767px){}
+@media screen and (max-width: 320px){}
 
-/* media screen para dispositivos móviles más antiguos y pantallas muy pequeñas */
-@media screen and (max-width: 360px){}
+@media screen and (min-width: 360px) and (max-width: 424px){}
 
-/* media screen para  teléfonos móviles actuales (360px - 768px) */
-@media screen and (max-width: 768px) and (min-width: 361px){}
+@media screen and (min-width: 1440px) and (max-width: 1920px){}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px{}
+
+@media screen and (min-width: 481px) and (max-width: 768px){}
+
+@media screen and (min-width: 425px) and (max-width: 480px){}
