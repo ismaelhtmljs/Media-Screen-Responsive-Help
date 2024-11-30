@@ -9,3 +9,8 @@
 @media screen and (min-width: 481px) and (max-width: 768px){}
 
 @media screen and (min-width: 425px) and (max-width: 480px){}
+
+/* media queri orientiation landscape */
+/* el landscape va a funcionar hasta que tenga su ancho maximo (1023px) , esto porque en el tamaño
+de las latops es de 1024px y son en modo landscape y el navegador puede colocar este media queri por confunción*/
+@media screen and (orientation: landscape) and (max-width: 1023px){}
