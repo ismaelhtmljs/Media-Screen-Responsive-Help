@@ -1,14 +1,22 @@
-@media screen and (max-width: 320px){}
+# Los media queris estan ordenados
 
-@media screen and (min-width: 360px) and (max-width: 424px){}
+/*media queri para celulares casi inexistentes y para los de gama baja */
+@media only screen and (min-width: 238px) and (max-width: 369px){}
 
-@media screen and (min-width: 1440px) and (max-width: 1920px){}
+/* media queri para celulares de gama media,alta,tablets de gama baja,media,altas y laptops*/
+@media only screen and (min-width: 360px) and (max-width: 424px){}
 
-@media screen and (min-width: 1024px) and (max-width: 1366px){}
+@media only screen and (min-width: 425px) and (max-width: 480px){}
 
-@media screen and (min-width: 481px) and (max-width: 768px){}
+@media only screen and (min-width: 479px) and (max-width: 750px){}
 
-@media screen and (min-width: 425px) and (max-width: 480px){}
+@media only screen and (min-width: 750px) and (max-width: 768px){}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){}
+
+@media only screen and (min-width: 1025px) and (max-width: 1133px){}
+
+@media only screen and (min-width: 1134px) and (max-width: 1139px){}
 
 /* media queri orientiation landscape */
 /* el landscape va a funcionar hasta que tenga su ancho maximo (1023px) , esto porque en el tamaño
